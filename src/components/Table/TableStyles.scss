@@ -1,0 +1,45 @@
+.table {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.row:hover {
+  background-color: #ccc;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.row_child_expand {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.row_child_expand:hover {
+  background-color: rgb(97, 97, 97);
+  transition: all 0.1s linear;
+}
+
+.row_hidden {
+  display: none;
+}
+
+.row_child_hidden {
+  display: none;
+}
+
+.cell {
+  padding: 20px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: break-all;
+}
